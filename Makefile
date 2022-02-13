@@ -1,0 +1,2 @@
+build:
+	bazel build -c opt --strip=ALWAYS --host_crosstool_top=@bazel_tools//tools/cpp:toolchain --fat_apk_cpu=arm64-v8a,armeabi-v7a //mediapipe/aars/src/java/com/google/mediapipe/libs/holistic_tracking:mediapipe_holistic_tracking.aar
